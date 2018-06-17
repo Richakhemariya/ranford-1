@@ -28,6 +28,10 @@ public class Table extends Base{
 			rows = table.findElements(By.tagName("tr"));
 
 			for (WebElement r : rows) {
+				
+				System.out.println("changing in table");
+				System.out.println("changing in table");
+				System.out.println("changing in table");
 
 				List<WebElement> columns = r.findElements(By.tagName("td"));
 
